@@ -1,0 +1,26 @@
+{
+  "name": "embafu_frontend_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustNuga/EMBAFU_Frontend_HTML.git"
+  },
+  "author": "DANOITECH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustNuga/EMBAFU_Frontend_HTML/issues"
+  },
+  "homepage": "https://github.com/JustNuga/EMBAFU_Frontend_HTML#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
