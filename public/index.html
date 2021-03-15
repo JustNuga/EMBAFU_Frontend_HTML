@@ -8,16 +8,16 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- header --> 
-<div>
 
-   <div class="bg-gray-300 bg-opacity-4 p-3 flex justify-between items-center shadow-2xl">
-        <!-- left side -->
+<div class="bg-no-repeat bg-cover" style="background-image: url('img/Blue\ Flat\ &\ Minimalist\ Academic\ Summit\ Education\ Website\ \(4\).png')">
+    
+   <div class="bg-transparent bg-opacity-4 p-3 px-10 flex justify-between items-center shadow-2xl" >
+       
+      
         <div>
             <a href="#" style="font-size: 30px;" class="text-gray-50 hover:text-purple-50">EMBAFU</a>
         </div>
-         <!-- center -->
-         <!-- search bar -->
+        
          <button type="button" class="group leading-6 font-medium flex items-center space-x-3 sm:space-x-4 hover:text-gray-600 transition-colors duration-200 py-2">
          <svg width="24" height="24" fill="none" class="text-gray-50 group-hover:text-gray-500 transition-colors duration-200">
          <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -25,21 +25,130 @@
          </svg>
          <span class="text-gray-50">Try homes in<span class="hidden sm:inline text-gray-50"> "Lagos"</span></span>
          </button>
-         <!-- search bar close -->
-         <!-- right side -->
-         <div class="p-3 bg-gray-50 gray-400 rounded-2xl">
-             <a href="#" class="text-indigo-200 mr-2"> Menu</a>
+        
+         <div class="p-3 bg-transparent rounded-2xl">
              <a href="#" class="bg-black rounded-full">image</a>
          </div>
     </div>
-    <div class="bg-red-200 p-56"><p>Discover</p><br><p>The beauty of Nigeria</p></div>
+   
+
+    <div class="bg-black bg-opacity-50   pt-20 pl-40 pb-10 pr-40 text-white "  > 
+
+        <!-- <div class="bg-red-600 text-white w-full h-full">
+            <h5 class=" ">Discover</h5><br>
+            <br>
+            <h5>The beauty of Nigeria</h5>
+        </div> -->
+        <div class="sliderAx h-full ">
+            <div id="slider-1" class="container mx-auto">
+              <div class="bg-cover bg-top  rounded-lg  h-auto text-white py-40 px-10 object-fill" style="background-image: url('img/Blue\ Flat\ &\ Minimalist\ Academic\ Summit\ Education\ Website\ \(4\).png')">
+             <div class="md:w-1/2">
+              <p class="font-bold text-sm uppercase">Services</p>
+              <p class="text-3xl font-bold">Hello world</p>
+              <p class="text-2xl mb-30 leading-none">Carousel with TailwindCSS and jQuery</p>
+              </div>  
+          </div> <!-- container -->
+            <br>
+            </div>
+      
+            <div id="slider-2" class="container mx-auto">
+              <div class="bg-cover bg-top rounded-lg  h-auto text-white py-40 px-10 object-fill" style="background-image: url('img/Blue\ Flat\ &\ Minimalist\ Academic\ Summit\ Education\ Website\ \(4\).png')">
+             
+        <p class="font-bold text-sm uppercase">Services</p>
+              <p class="text-3xl font-bold">Hello world</p>
+              <p class="text-2xl mb-30 leading-none">Carousel with TailwindCSS and jQuery</p>
+               
+          </div> <!-- container -->
+            <br>
+            </div>
+
+            <!-- Down Slide -->
+            <div class="absolute ml-5 top-3/4 grid gap-6 lg:grid-cols-2 xl:grid-cols-3 ">
+
+                <div
+                  class="flex items-center rounded-lg bg-white shadow-lg overflow-hidden"
+                >
+                  <img
+                    class="h-32 w-32 flex-shrink-0"
+                    src="img/toronto.jpg"
+                    alt="Toronto skyline"
+                  />
+                  <div class="px-4 py-2">
+                    <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
+                    <p class="text-gray-600">$120 / night average</p>
+                    <div class="mt-4">
+                      <a
+                        href="#"
+                        class="text-brand-dark hover:text-brand font-semibold text-sm"
+                        >Explore 76 properties</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="flex items-center rounded-lg bg-white shadow-lg overflow-hidden"
+                >
+                  <img
+                    class="h-32 w-32 flex-shrink-0"
+                    src="img/malibu.jpg"
+                    alt="Cliff in Malibu"
+                  />
+                  <div class="px-6 py-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Malibu</h3>
+                    <p class="text-gray-600">$215 / night average</p>
+                    <div class="mt-4">
+                      <a
+                        href="#"
+                        class="text-brand-dark hover:text-brand font-semibold text-sm"
+                        >Explore 43 properties</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex items-center rounded-lg bg-white shadow-lg overflow-hidden"
+                >
+                  <img
+                    class="h-32 w-32 flex-shrink-0"
+                    src="img/chicago.jpg"
+                    alt="Chicago skyline"
+                  />
+                  <div class="px-6 py-4">
+                    <h3 class="text-lg font-semibold text-gray-800">Chicago</h3>
+                    <p class="text-gray-600">$130 / night average</p>
+                    <div class="mt-4">
+                      <a
+                        href="#"
+                        class="text-brand-dark hover:text-brand font-semibold text-sm"
+                        >Explore 115 properties</a
+                      >
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Down Slide End -->
+        </div>
+       <div  class="flex justify-between w-12 mx-auto pb-2">
+              <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
+          <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
+        </div>
+        
+    
+    </div>
+    
+
+</div> 
 
 
-</div>
+
 
 
     <!-- features -->
 
     <!-- footer -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="index.js"></script>
 </body>
+
 </html>
